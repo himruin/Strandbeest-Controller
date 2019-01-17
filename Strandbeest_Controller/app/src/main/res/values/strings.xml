@@ -1,0 +1,18 @@
+<resources>
+    <!--Main (connection) window-->
+    <string name="app_name">Strandbeest Controller</string>
+    <string name="turnOn">Turn On</string>
+    <string name="turnOff">Disable Connection/Bt</string>
+    <string name="Discoverable">Start connection</string>
+    <string name="pairedDev">Paired Devices</string>
+    <string name="joyCtrl">Joystick Control</string>
+    <string name="bt_img">BT img</string>
+
+    <!-- Controller Window-->
+    <string name="axisX">X: </string>
+    <string name="axisY">Y: </string>
+    <string name="angle">Angle: </string>
+    <string name="dist">Distance: </string>
+    <string name="dir">Direction: </string>
+
+</resources>

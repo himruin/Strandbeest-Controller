@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainConnection">
+
+    <!--Bluetooth icon (on/off) -->
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/bt_img" />
+
+    <!-- On Button -->
+    <Button
+        android:id="@+id/onBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:minWidth="200dp"
+        android:text="@string/turnOn" />
+
+    <!-- Connection button -->
+    <Button
+        android:id="@+id/discoverableBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:minWidth="200dp"
+        android:text="@string/Discoverable" />
+
+    <!-- Stop connection Button -->
+    <Button
+        android:id="@+id/offBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="10dp"
+        android:minWidth="200dp"
+        android:text="@string/turnOff" />
+
+    <!--Get list of paired devices button-->
+    <Button
+        android:id="@+id/pairedBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="10dp"
+        android:minWidth="200dp"
+        android:text="@string/pairedDev" />
+
+    <!--Show paired devices here-->
+    <TextView
+        android:id="@+id/pairedTv"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+    />
+
+    <!--Button to new activity (joystick controller)-->
+    <Button
+        android:id="@+id/joystickCtrlBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="75dp"
+        android:minWidth="200dp"
+        android:text="@string/joyCtrl" />
+
+</LinearLayout>
